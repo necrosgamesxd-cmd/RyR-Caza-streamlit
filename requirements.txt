@@ -1,0 +1,17 @@
+# ============================================================
+# Dependencias para el Dashboard Streamlit de R&R Caza
+# Instalar con: pip install -r requirements.txt
+# ============================================================
+
+# Dashboard framework
+streamlit>=1.35.0
+
+# HTTP client para comunicarse con la API
+httpx>=0.27.0
+requests>=2.31.0
+
+# Procesamiento de datos
+pandas>=2.1.0
+
+# Cliente SSE para eventos en tiempo real
+sseclient-py>=1.8.0
